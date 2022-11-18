@@ -30,7 +30,7 @@ void printArray(int array[], int size) {
 
 // 
 int main() {
-  int data[] = {10,20,34,23,16,18,1,25,23,100,41,18,27,32};
+  int data[] = {10,20,34,22,16,18,1,25,23,100,41,18,27,32,70,2,0,-2};
   int size = sizeof(data) / sizeof(data[0]);
   selectionSort(data, size);
   printf("ordenamiemto:\n");
