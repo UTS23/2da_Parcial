@@ -1,0 +1,17 @@
+list : array of items
+ n
+      : size of list
+ for 1 to n - 1
+ /* set current element as minimum*/
+    min = : i
+    /* check the element to be minimum */
+    for to n
+       if list[j] ]< list[min] then
+         min n = j;
+       end if
+    end for
+    /* swap the minimum element with the current element*/
+    if indexMin != i then
+       swap list[min] and list[i]
+    end if
+ end for
